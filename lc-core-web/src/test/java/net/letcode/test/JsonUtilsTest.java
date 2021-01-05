@@ -1,10 +1,9 @@
 package net.letcode.test;
 
+import java.util.List;
+import org.junit.jupiter.api.Test;
 import net.letcode.core.web.support.bean.db.Search;
 import net.letcode.core.commons.utils.JsonUtils;
-import org.junit.Test;
-
-import java.util.List;
 
 /**
  * JSON序列化测试

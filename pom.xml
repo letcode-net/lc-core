@@ -17,24 +17,24 @@
 
     <properties>
         <slf4j.version>1.7.30</slf4j.version>
-        <guava.version>29.0-jre</guava.version>
+        <guava.version>30.1-jre</guava.version>
         <commons-lang3.version>3.11</commons-lang3.version>
-        <commons-io.version>2.7</commons-io.version>
-        <commons-codec.version>1.14</commons-codec.version>
-        <httpclient.version>4.5.12</httpclient.version>
-        <bcprov.version>1.66</bcprov.version>
-        <jackson.version>2.11.2</jackson.version>
+        <commons-io.version>2.8.0</commons-io.version>
+        <commons-codec.version>1.15</commons-codec.version>
+        <httpclient.version>4.5.13</httpclient.version>
+        <bcprov.version>1.68</bcprov.version>
+        <jackson.version>2.11.3</jackson.version>
         <dom4j.version>1.6.1</dom4j.version>
         <servlet.version>4.0.1</servlet.version>
 
-        <spring.version>5.2.8.RELEASE</spring.version>
-        <mybatis.version>3.5.5</mybatis.version>
-        <redis.version>2.3.3.RELEASE</redis.version>
-        <feign.version>10.11</feign.version>
+        <spring.version>5.3.2</spring.version>
+        <mybatis.version>3.5.6</mybatis.version>
+        <redis.version>2.4.1</redis.version>
+        <feign.version>10.12</feign.version>
 
         <lc-core.version>1.0</lc-core.version>
 
-        <junit.version>4.12</junit.version>
+        <junit.version>5.7.0</junit.version>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
@@ -148,8 +148,8 @@
 
             <!-- Junit -->
             <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
+                <groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>

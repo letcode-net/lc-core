@@ -1,6 +1,6 @@
 package net.letcode.test;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import net.letcode.core.commons.utils.Encodes;
 
 /**
